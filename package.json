@@ -1,0 +1,28 @@
+{
+  "name": "atividade-4",
+  "version": "1.0.0",
+  "description": "Aplicação web simples para cadastrar e listar jogos da Mega-Sena. O projeto usa uma página estática no frontend, uma API em Express no backend, persistência em PostgreSQL e deploy em ambiente de nuvem.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server",
+    "db:init": "node ./src/infra/run_sql",
+    "dev": "node --watch ./src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoDT/Atividade-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ThiagoDT/Atividade-4/issues"
+  },
+  "homepage": "https://github.com/ThiagoDT/Atividade-4#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0"
+  }
+}
