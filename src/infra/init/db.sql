@@ -1,3 +1,5 @@
+drop table senas;
+
 CREATE TABLE senas (
  id_sena SERIAL PRIMARY KEY,
  nros VARCHAR(100) NOT NULL
